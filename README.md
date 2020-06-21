@@ -1,7 +1,13 @@
 # TDD Strict Equal
 In this exercise you will be using a test driven development (TDD) approach to implement a `strictEqual()` function. 
-The `strictEqual()` function will work the way the `===` operator does but you are not allowed to use this operator. 
-For example, `strictEqual(5, '5')` should return `false` but `strictEqual('a', 'a')` should return `true`.
+The `strictEqual()` function will work similiar to the way the `===` operator works but within a `strictEqual()` function. 
+
+Examples
+
+- `strictEqual(5, '5')` should return `false` 
+- `strictEqual('a', 'a')` should return `true`
+
+Instructions
 
 - Create a branch called `answer`
 - Creating your tests
