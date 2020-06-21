@@ -1,4 +1,13 @@
 # TDD Strict Equal
-In this exercise you will be using a test driven development (TDD) approach to implement a `strictEqual()` function. The `strictEqual()` function will work the way the `===` operator does but you are not allowed to use this operator. For example, `strictEqual(5, '5')` would return `false` but `strictEqual('a', 'a')` would return `true`.
+In this exercise you will be using a test driven development (TDD) approach to implement a `strictEqual()` function. 
+The `strictEqual()` function will work the way the `===` operator does but you are not allowed to use this operator. 
+For example, `strictEqual(5, '5')` should return `false` but `strictEqual('a', 'a')` should return `true`.
 
-Working in a branch called `answer`, start by creating your tests and committing those to your branch. Then create implement your function to get your tests to pass and commit those changes. Once you are done, push your branch up to GitHub, create a pull request, and request review from the instructor.
+- Create a branch called `answer`
+- Creating your tests
+- Committing your tests to your branch
+- Write the code for your your `strictEqual` function until your tests pass
+- Commit your working code. 
+- Push your `answer` branch up to GitHub.
+- Create a pull request
+- Request review from the instructor
