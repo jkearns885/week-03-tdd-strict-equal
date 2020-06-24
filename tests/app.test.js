@@ -7,13 +7,13 @@ describe('app', () => {
   describe('strictEqual', () => {
     it('returns true if two inputs are strictly equal to each other & returns false if not', () => {
       // setup test data
-      var inputOne = 5
+      var inputOne = '5'
       var inputTwo = 5
       // call the function with the test data
       var result = strictEqual(inputOne, inputTwo)
       // asserts what should be true
 
-      expect(result).to.equal(true)
+      expect(result).to.equal(false)
     })
   })
 })
